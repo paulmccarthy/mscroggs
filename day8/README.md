@@ -4,5 +4,5 @@ For example, a residents of Octingham would say 12, 22 and 52 instead of our usu
 
 Today's number is what a resident of Octingham would call 11 squared (where the 11 is also written using the Octingham number system).
 
-0o11 = (1 * 8^1) + (1 * 8^0) = 9
+0o11 = (1 * 8^1) + (1 * 8^0) = 9\
 9 * 9 = 81 = 64 + 16 + 1 = (1 * 8^2) + (2 * 8^1) + (1 * 8^0) = 0o121
