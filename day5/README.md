@@ -39,4 +39,4 @@ r = 521 or 200\
 100 >= n <= 200\
 s = 6
 
-As we're looking for the number of dice, we dont need the actual probability, so we can drop the first part of the formula (1 / s ^ n) and concentrate just on the rest of the sum.
+As we're looking for the number of dice, we dont need the actual probability, so we can drop the first part of the formula (1 / s ^ n) as it's a constant and concentrate just on the rest of the sum.

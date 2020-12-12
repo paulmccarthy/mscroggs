@@ -1,7 +1,5 @@
-// find a 3 digit number where the number is the sum of the cubes of it's digits
-// this number - 1 also has this property
-
-// brute force attempt
+// Could do this with modulo and subtraction,
+// but char arrays will work fine, and are easier to follow.
 const cubeAndSumDigits = (num) => {
     const first = Number(num.toString()[0]);
     const second = Number(num.toString()[1]);
@@ -10,6 +8,7 @@ const cubeAndSumDigits = (num) => {
     return Math.pow(first, 3) + Math.pow(second, 3) + Math.pow(third, 3);
 };
 
+// work backwards as we want the higer of the two solutions
 for (let i = 999; i >= 100; i -= 1) {
     const check = cubeAndSumDigits(i) === i;
 
