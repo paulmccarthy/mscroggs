@@ -180,4 +180,6 @@ R = 3
 U = 0
 ```
 
-There for SAM = 781.
+Therefore:
+
+SAM = 781.
